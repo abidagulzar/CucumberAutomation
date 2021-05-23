@@ -6,9 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features="src/test/java/Features/Login.feature",
-        glue ="stepDefinition",stepNotifications = true) //provide name of pkg where java class is implemented
+        features="src/test/java/Features",
+        glue ="stepDefinition",stepNotifications = true,tags = "@regTest or @smokeTest") //provide name of pkg where java class is implemented
 public class JunitTestRunner {
 
-
+//tags= not "@sanityTest"  -- it will run all test case except sanityTest tags
+    //tags ="@smokeTest" -- it will run only smoketest
+    //tags="@regTest" and "@smokeTest"  ---- it will run those testcase who have both tags
+    //tags="@regTest" or "@smokeTest"  -- it will run those test case either it have smoke tag or reg tag
 }
