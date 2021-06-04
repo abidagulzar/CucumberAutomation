@@ -1,0 +1,696 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-04T11:17:16.994Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1995300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.beforewebtest()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.Afterwebtest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user login by \"rana\" and password \"4321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rana",
+                  "offset": 15
+                },
+                {
+                  "val": "4321",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.user_login_into_application_with_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T11:17:17.093Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.beforevalidation()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.hooks.Aftervalidation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1996300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user login by \"abida\" and password \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abida",
+                  "offset": 15
+                },
+                {
+                  "val": "12345",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.user_login_into_application_with_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MobileTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T11:17:17.112Z",
+        "line": 23,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user signup with the following detail",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_signup_with_the_follwing_detail(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abbi",
+                  "12345",
+                  "abidarana96@gmail.com",
+                  "Lahore"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 991200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Cards displayed are \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanityTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T11:17:17.130Z",
+        "line": 39,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login into application user1 password u12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 28
+                },
+                {
+                  "val": "u12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.user_login_into_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          },
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T11:17:17.147Z",
+        "line": 40,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login into application user2 password u12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 28
+                },
+                {
+                  "val": "u12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.user_login_into_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1995300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          },
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T11:17:17.161Z",
+        "line": 41,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login into application user3 password u12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user3",
+                  "offset": 28
+                },
+                {
+                  "val": "u12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.user_login_into_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          },
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T11:17:17.172Z",
+        "line": 42,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login into application user4 password u12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user4",
+                  "offset": 28
+                },
+                {
+                  "val": "u12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.user_login_into_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          },
+          {
+            "name": "@RegTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-04T11:17:17.182Z",
+        "line": 43,
+        "name": "Home page default login",
+        "description": "",
+        "id": "banking-application-login;home-page-default-login;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on banking landing page",
+            "match": {
+              "location": "stepDefinition.stepdefinition.user_is_on_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login into application user5 password u12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user5",
+                  "offset": 28
+                },
+                {
+                  "val": "u12345",
+                  "offset": 43
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.user_login_into_application(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefinition.stepdefinition.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Cards displayed are \"true\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "true",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinition.stepdefinition.cards_are_displayed(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          },
+          {
+            "name": "@RegTest"
+          }
+        ]
+      }
+    ],
+    "name": "Banking Application Login",
+    "description": "",
+    "id": "banking-application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/login.feature",
+    "tags": []
+  }
+]

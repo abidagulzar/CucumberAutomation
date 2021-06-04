@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.432">
+    <testcase classname="Banking Application Login" name="Home page default login" time="0.082">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user login by "rana" and password "4321"...............................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Banking Application Login" name="Home page default login 2" time="0.01">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user login by "abida" and password "12345".............................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Banking Application Login" name="Home page default login 3" time="0.008">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user signup with the following detail..................................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "false".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Banking Application Login" name="Home page default login 4" time="0.008">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user login into application user1 password u12345......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Banking Application Login" name="Home page default login 5" time="0.008">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user login into application user2 password u12345......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Banking Application Login" name="Home page default login 6" time="0.005">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user login into application user3 password u12345......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Banking Application Login" name="Home page default login 7" time="0.004">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user login into application user4 password u12345......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Banking Application Login" name="Home page default login 8" time="0.007">
+        <system-out><![CDATA[Given User is on banking landing page.......................................passed
+When user login into application user5 password u12345......................passed
+Then Home page is populated.................................................passed
+And Cards displayed are "true"..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
