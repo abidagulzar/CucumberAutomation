@@ -44,4 +44,19 @@ public class stepdefinition {
         System.out.println(arg1);
 
     }
+    @Given("^validate the browser$")
+    public void validate_the_browser() throws Throwable {
+        System.out.println("Deciding the browser to open");
+    }
+
+    @When("^browser is triggered$")
+    public void browser_is_triggered() throws Throwable {
+        System.out.println("Browser is triggered");
+    }
+
+    @Then("^check if browser is started$")
+    public void check_if_browser_is_started() throws Throwable {
+        System.out.println("Browser is started");
+    }
+
 }

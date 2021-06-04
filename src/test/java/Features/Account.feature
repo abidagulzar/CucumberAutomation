@@ -1,6 +1,10 @@
 Feature: Banking Application Login
+  Background:
+  Given validate the browser
+  When browser is triggered
+  Then check if browser is started
 
-  @smokeTest
+  @AdminPortalTest
   Scenario: Home page default login
 
     Given User is on banking landing page

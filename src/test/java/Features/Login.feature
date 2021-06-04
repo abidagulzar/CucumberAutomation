@@ -1,12 +1,18 @@
 Feature: Banking Application Login
-@sanityTest
+
+#Background:
+  #Given validate the browser
+  #When browser is triggered
+  #Then check if browser is started
+
+@WebTest
   Scenario: Home page default login
 
     Given User is on banking landing page
     When user login by "rana" and password "4321"
     Then Home page is populated
     And Cards displayed are "true"
-  @sanityTest
+  @MobileTest
   Scenario: Home page default login
 
     Given User is on banking landing page
